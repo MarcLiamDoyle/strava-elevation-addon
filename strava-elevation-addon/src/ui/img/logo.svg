@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .mountain {
+      fill: #4CAF50;
+    }
+    .route {
+      fill: none;
+      stroke: #FF5722;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .pin {
+      fill: #F44336;
+    }
+  </style>
+  
+  <!-- Mountains background -->
+  <path class="mountain" d="M0,100 L20,60 L30,70 L40,50 L60,80 L70,60 L80,70 L100,40 L100,100 Z" />
+  
+  <!-- Route path -->
+  <path class="route" d="M10,80 C20,60 30,70 40,50 C50,30 60,80 70,60 C80,40 90,60 95,50" />
+  
+  <!-- Location pin -->
+  <circle class="pin" cx="70" cy="60" r="5" />
+  <path class="pin" d="M70,60 L70,45 L65,50 L70,45 L75,50 Z" />
+</svg>
